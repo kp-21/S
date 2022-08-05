@@ -1,0 +1,18 @@
+.lesser-break-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.lesser-break-image {
+  width: 100px;
+  object-fit: cover;
+}
+@media(max-width: 1200px) {
+  .lesser-break-image {
+    width: 100%;
+    height: 100%;
+  }
+}

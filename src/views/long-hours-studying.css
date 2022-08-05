@@ -1,0 +1,18 @@
+.long-hours-studying-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.long-hours-studying-image {
+  width: 100px;
+  object-fit: cover;
+}
+@media(max-width: 1200px) {
+  .long-hours-studying-image {
+    width: 100%;
+    height: 100%;
+  }
+}
